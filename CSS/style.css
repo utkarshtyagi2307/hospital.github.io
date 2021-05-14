@@ -1,0 +1,184 @@
+
+
+#logo-img {
+    width: 39px;
+    height: 39px;
+}
+
+
+
+#homebanner {
+    width: 100%;
+    /* min-width: 500px; */
+    margin-top: 80px;
+    height: 100%;
+}
+
+.block {
+    display: block;
+    width: 100%;
+    margin: auto;
+    min-width: 250px;
+}
+
+#about-p {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+#mission-p {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+#corporate-p {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+#appoint-btn {
+    display: inline;
+    animation-name: inherit ;
+}
+
+.w3 {
+    color: #224d91;
+    border-left: 8px solid;
+    border-left-color: rgb(196, 66, 81);
+    background-color: #e2e0e2;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.counter {
+    border-radius: 500px;
+    margin: auto;
+    padding: 40px;
+}
+
+.w3-container p {
+    text-align: justify;
+}
+
+
+#stats span {
+    margin: auto;
+    list-style-type: none;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.stats-p {
+    font-size: 14px;
+}
+
+.stats-h3 {
+    font-size: 24px;
+}
+
+.card-text {
+    padding: 5px;
+}
+
+/* .stats-span {
+    width: 17%;
+} */
+
+.w3-container {
+    padding: 0.01em 16px;
+}
+
+.w3-light-grey {
+    color: #000!important;
+    background-color: #f1f1f1!important;
+}
+
+.w3-card-4, .w3-hover-shadow:hover {
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.w3-col, .w3-half, .w3-third, .w3-twothird, .w3-threequarter, .w3-quarter {
+    float: left;
+    width: 100%;
+}
+
+footer p a {
+    text-decoration: none;
+    color: palevioletred;
+}
+
+
+
+
+
+/* #services-img {
+    width: 100%;
+} */
+
+
+
+
+
+
+
+
+/* ----Responsiveness---- */
+@media (min-width: 500px) {
+    #btn-appointment {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    #home-page {
+        display: none;
+    }
+}
+
+@media (min-width: 600px) {
+    #home-page-short {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    #stats-flex {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 1090px) {
+    .row-cols-md-3>* {
+        flex: 0 0 auto;
+        width: 49.9%;
+    }
+}
+
+@media (max-width: 750px) {
+    .row-cols-md-3>* {
+        flex: 0 0 auto;
+        width: 100%;
+        
+    }
+}
+
+
+ @media (max-width: 375px) {
+    .card-body {
+        flex-direction: column;
+    }
+    .card-body img {
+        margin: 0px auto;
+    }
+}
+ 
+@media (max-width: 375px) {
+    #testimonials {
+        width: 100%;
+    }
+}
+
+
+
+
